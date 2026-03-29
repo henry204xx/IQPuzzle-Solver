@@ -1,38 +1,41 @@
 
-# Tucil1_13523108
+# IQPuzzle Solver
 > Tugas Kecil 1 IF2211 Strategi Algoritma
 Penyelesaian IQ Puzzler Pro dengan Algoritma Brute Force
 Semester II Tahun 2024/2025
 
-Program penyelesaian IQ Puzzler Pro 2D pada papan berukuran MxN dan piramida 3D dengan base MxN
+# Description
+Program for solving IQ Puzzler Pro in 2D on an MxN board and a 3D pyramid with an MxN base
 
 
 ## Usage
 
-Cara untuk menjalankan program
+How to run the program
 
-1. Buka terminal atau command prompt.
-2. Arahkan ke folder tempat file disimpan dengan perintah berikut:
-   - Untuk pengguna **Linux** atau **Windows**:
+1. Open a terminal or command prompt.
+2. Navigate to the folder where the file is stored using the following command:
+   - For **Linux** or **Windows** users:
      ```bash
      cd /path/to/folder
      ```
-3. Arahkan ke folder bin dengan perintah: 
-    - Untuk pengguna **Linux** atau **Windows**:
-        ```bash
-        cd bin
-        ```
+
+3. Navigate to the `bin` folder with the following command:
+   - For **Linux** or **Windows** users:
+     ```bash
+     cd bin
+     ```
   
-4. Setelah berada di direktori yang benar, jalankan perintah berikut.  
+4. Once in the correct directory, run the following command:  
     ```bash
     java Main
     ```
 
-5. Jika berhasil, akan muncul tampilan program.
+5. If successful, the program interface will appear:
     ```bash
-    Masukkan nama file:
+    Enter file name:
     ```
-6. Untuk input, pastikan menaruh file .txt di folder test dengan format: 
+
+6. For input, make sure to place the `.txt` file in the `test` folder with the following format: 
     ```bash
     M N P
     S
@@ -41,7 +44,7 @@ Cara untuk menjalankan program
     ...
     block_P_SHAPE
     ```
-    Contoh: 
+    Example: 
     ```bash
     5 5 7
     DEFAULT
@@ -62,19 +65,20 @@ Cara untuk menjalankan program
     GGG
 
     ```
-    ### Keterangan:
 
-    - **M, N** = dimensi papan MxN  
-    - **P** = jumlah blok yang digunakan  
-    - **S** = Tipe papan (DEFAULT/PYRAMID)  
-    - **block_P_SHAPE** =  blok dari rangkaian huruf A-Z
+    ### Description:
+
+    - **M, N** = board dimensions (MxN)  
+    - **P** = number of blocks used  
+    - **S** = board type (DEFAULT/PYRAMID)  
+    - **block_P_SHAPE** = blocks represented by sequences of letters A–Z
     
 ## Features
 
-Program ini dapat
-1. Menyelesaikan permainan IQ Puzzler Pro pada papan 2D berukuran MxN.
-2. Menyelesaikan permainan IQ Puzzler Pro membangun piramida 3D.
-3. Menyimpan solusi dari permainan sebagai file teks maupun gambar.
+This program can:
+1. Solve IQ Puzzler Pro on a 2D board of size MxN.
+2. Solve IQ Puzzler Pro by constructing a 3D pyramid.
+3. Save the solution as a text file or an image.
 
 
 ## Created by
